@@ -11,7 +11,7 @@ const Index = () => {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 bg-gradient-hero">
         <div className="text-center max-w-4xl mx-auto animate-fade-in">
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent animate-float">
+          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 text-foreground animate-float">
             Gerald Muteru
           </h1>
           <p className="text-xl sm:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
@@ -69,40 +69,22 @@ const Index = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                title: "E-Commerce Platform",
-                description: "Full-stack web app with React frontend and Django backend, featuring user authentication, payment integration, and admin dashboard.",
-                tech: ["React", "Django", "PostgreSQL", "Stripe"],
-                image: "🛒"
+                title: "ChainAfric",
+                description: "Multi-asset tracking system showcasing various interfaces for cryptocurrency tracking, including wallet management, news reading, and blockchain data exploration across multiple chains.",
+                tech: ["React", "Blockchain", "Web3", "Multi-Chain", "Crypto APIs"],
+                image: "⛓️"
               },
               {
-                title: "Task Management App",
-                description: "Collaborative productivity tool with real-time updates, drag-and-drop functionality, and team collaboration features.",
-                tech: ["React", "Tailwind", "WebSockets", "Django REST"],
-                image: "📋"
+                title: "Entertainment Event Management",
+                description: "Event management website for a client with features for event and talent management, including performers, event promotion, and service categories for unforgettable experiences.",
+                tech: ["React", "Django", "Event Management", "Talent Booking", "Client Portal"],
+                image: "🎪"
               },
               {
-                title: "Blockchain Voting System",
-                description: "Secure digital voting platform leveraging blockchain technology for transparency and immutable record keeping.",
-                tech: ["React", "Solidity", "Web3.js", "Blockchain"],
-                image: "🗳️"
-              },
-              {
-                title: "Portfolio Website",
-                description: "Modern, responsive portfolio showcasing projects and skills with smooth animations and dark mode support.",
-                tech: ["React", "Tailwind", "TypeScript", "Framer Motion"],
-                image: "💼"
-              },
-              {
-                title: "Weather Dashboard",
-                description: "Interactive weather application with location-based forecasts, charts, and intuitive user interface.",
-                tech: ["React", "Chart.js", "REST API", "Ant Design"],
-                image: "🌤️"
-              },
-              {
-                title: "Social Media Analytics",
-                description: "Data visualization dashboard for social media metrics with real-time updates and comprehensive reporting.",
-                tech: ["React", "D3.js", "Django", "Redis"],
-                image: "📊"
+                title: "Document Management System",
+                description: "Comprehensive DMS showcasing interfaces for document management, including secure login, user dashboard, document organization, and file tracking with recycle bin functionality.",
+                tech: ["React", "Django", "File Management", "Authentication", "Dashboard"],
+                image: "📄"
               }
             ].map((project, index) => (
               <Card key={index} className="group cursor-pointer hover:shadow-glow transition-all duration-300 hover:-translate-y-2 border-border/50">
