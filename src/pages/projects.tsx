@@ -5,9 +5,9 @@ export const projects = [
     description:
       "Multi-asset tracking system showcasing various interfaces for cryptocurrency tracking, including wallet management, news reading, and blockchain data exploration across multiple chains.",
     tech: ["React", "Blockchain", "Web3", "Multi-Chain", "Crypto APIs"],
-    image: "/assets/chainafric-dashboard.png",
+    image: "/assets/chainafric-home.png",
     gallery: [
-      "/assets/chainafric-dashboard.png",
+      "/assets/chainafric-home.png",
       "/assets/chainafric-dashboard.png",
       "/assets/chainafric-explore.png",
       "/assets/chainafric-new.png",
